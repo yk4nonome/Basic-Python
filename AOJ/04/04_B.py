@@ -1,6 +1,3 @@
+from math import pi
 r = float(input())
-m = r*r*3.141592653589793238462643383279
-s = 2*r*3.141592653589793238462643383279
-m = round(m, 6)
-s = round(s, 6)
-print(m, s)
+print('{0:.6f} {1:.6f}'.format(r*r*pi, 2*r*pi))

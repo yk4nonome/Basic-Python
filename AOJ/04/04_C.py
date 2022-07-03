@@ -1,8 +1,7 @@
 while True:
-    a, op, b = input().split()
+    a, op, b = map(str, input().split())
     a = int(a)
     b = int(b)
-    op = str(op)
     if op == "?":
         break
     elif op == "+":
